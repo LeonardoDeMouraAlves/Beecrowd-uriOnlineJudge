@@ -6,7 +6,7 @@ class URI {
 
     static void Main(string[] args) { 
         int A = Convert.ToInt32(Console.ReadLine()), B = Convert.ToInt32(Console.ReadLine());
-        Console.Write("SOMA = " + Convert.ToInt32(A+B) + "\n");
+        Console.Write("SOMA = " + (A+B) + "\n");
     }
 
 }
